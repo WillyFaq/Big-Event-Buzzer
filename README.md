@@ -20,19 +20,19 @@ Aplikasi untuk menampilkan waktu perseta. Serta otomatis menyalakan buzzer(sound
 ## Cara Penggunaan : 
 - buka <project_dir>/assets/js/config.js
 - sesuiakan server + port : 3800 dan lama waktu (dalam detik), contoh : 
-'''
+```
 var _server = 'http://127.0.0.1:3800';
 var tot_time = 900;// 15 menit
-'''
+```
 - hidupkan node server, double click start_server.bat
 - Buka browser, ketikkan <ip php webserver>/<project_dir>, contoh :
-'''
+```
 http://127.0.0.1/buzzer
-'''
+```
 - Untuk menabahkan band, ketikan <ip php webserver>/<project_dir>/band.php, contoh :
-'''
+```
 http://127.0.0.1/buzzer/band.php
-'''
+```
 
 ## Powered By :
 - [preziotte - party-mode](http://github.com/preziotte/party-mode)
